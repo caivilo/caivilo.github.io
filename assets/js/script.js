@@ -17,3 +17,41 @@ function filterProjects(category) {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".archive-card");
+  const tags = new Set();
+
+  cards.forEach(card => {
+    card.querySelectorAll(".tag").forEach(tag => {
+      tags.add(tag.textContent.trim());
+    });
+  });
+
+  const container = document.getElementById("tag-filters");
+
+  if (!container) return; // prevents errors on other pages
+
+  // Add "All" button
+  const allButton = document.createElement("button");
+  allButton.textContent = "All";
+  allButton.addEventListener("click", () => {
+    cards.forEach(card => card.style.display = "block");
+  });
+  container.appendChild(allButton);
+
+  tags.forEach(tag => {
+    const button = document.createElement("button");
+    button.textContent = tag;
+
+    button.addEventListener("click", () => {
+      cards.forEach(card => {
+        card.style.display = card.innerText.includes(tag)
+          ? "block"
+          : "none";
+      });
+    });
+
+    container.appendChild(button);
+  });
+});
