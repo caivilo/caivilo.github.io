@@ -56,10 +56,13 @@ title: Home
 <section>
   <h2>Academic Appointments</h2>
   <p>
-    Head of Circulation Services, Purchase College (2024–Present)
+    Supervisor (Library Curriculum Support Services), Princeton University (2025–Present)
   </p>
   <p>
-    Access Services & Science Library Roles, Columbia University Libraries
+    Head of Circulation Services, Purchase College (2024–2025)
+  </p>
+  <p>
+    Library Assistant & Access Services Coordinator roles, Columbia University Libraries (2021-2024)
   </p>
 </section>
 
