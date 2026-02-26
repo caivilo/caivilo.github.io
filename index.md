@@ -4,52 +4,45 @@ title: Home
 ---
 
 <section class="hero">
-  <h2>Information Science • Data • Law</h2>
-  <p>
-    I research information infrastructures, metadata systems, and the ethical implications of access in academic and legal environments.
-  </p>
-</section>
-
-<section id="about">
-  <h2>About</h2>
-  <p>
-    Librarian and data-driven information professional with experience in research support,
-    metadata management, digital scholarship, and data analysis.
+  <h1>Information Science, Data, & Legal Infrastructure</h1>
+  <p class="lead">
+    I examine how information systems, metadata infrastructures, and research analytics shape access to environmental and legal knowledge.
   </p>
 </section>
 
 <section>
-  <h3>Research Interests</h3>
-  <ul>
-    <li>Information Ethics</li>
-    <li>Metadata & Knowledge Organization</li>
-    <li>Research Analytics & Data Visualization</li>
-    <li>Environmental Law & Information Access</li>
-    <li>Carceral Information Systems</li>
+  <h2>Research Overview</h2>
+  <p>
+    My work explores the ethical and structural dimensions of information access. 
+    Drawing on a background in mathematics and librarianship, I investigate how 
+    classification systems, circulation policies, and research infrastructures 
+    influence environmental law, prison reform, and institutional knowledge production.
+  </p>
+</section>
+
+<section>
+  <h2>Selected Publications</h2>
+
+  <ul class="pub-list">
+    <li>
+      Coleman, O. (Forthcoming). <em>Title of Article</em>. Journal Name.
+    </li>
+    <li>
+      Master's Thesis (In Progress). 
+      <em>Information Infrastructures in Environmental Legal Systems</em>.
+    </li>
   </ul>
+
+  <p><a href="/publications/">View Full Publications →</a></p>
 </section>
 
 <section>
-  <h3>Experience</h3>
-
-  <div class="job">
-    <h4>Supervisor, Library Curriculum Support Services — Princeton University Libraries</h4>
-    <span class="date">2022–Present</span>
-    <ul>
-      <li>Supported faculty research and managed digital collections.</li>
-      <li>Improved metadata workflows, increasing retrieval efficiency by 20%.</li>
-      <li>Conducted data analysis on usage metrics to inform policy decisions.</li>
-    </ul>
-  </div>
-</section>
-
-<section>
-  <h3>Selected Collection</h3>
+  <h2>Selected Research & Projects</h2>
 
   {% assign sorted = site.projects | sort: "date" | reverse %}
-  {% for project in sorted limit:3 %}
+  {% for project in sorted limit:2 %}
     <div class="archive-card">
-      <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
+      <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
       <p class="meta">
         {{ project.creator }} • {{ project.date | date: "%Y" }}
       </p>
@@ -57,11 +50,25 @@ title: Home
     </div>
   {% endfor %}
 
-  <p><a href="/collection/">View Full Collection →</a></p>
+  <p><a href="/collection/">View Research Collection →</a></p>
 </section>
 
-<section id="education">
-  <h3>Education</h3>
-  <p><strong>MSIS</strong> — University at Albany (2024–2026)</p>
-  <p><strong>MSDSA</strong> — SUNY Polytechnic Institute (2026–2028)</p>
+<section>
+  <h2>Academic Appointments</h2>
+  <p>
+    Head of Circulation Services, Purchase College (2024–Present)
+  </p>
+  <p>
+    Access Services & Science Library Roles, Columbia University Libraries
+  </p>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p>
+    M.S. Information Science, University at Albany (2024–2026)
+  </p>
+  <p>
+    B.A. Mathematics, Colorado College (2021)
+  </p>
 </section>
