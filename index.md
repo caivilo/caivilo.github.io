@@ -54,16 +54,14 @@ title: Home
 </section>
 
 <section>
-  <h2>Academic Appointments</h2>
-  <p>
-    Supervisor (Library Curriculum Support Services), Princeton University (2025–Present)
-  </p>
-  <p>
-    Head of Circulation Services, Purchase College (2024–2025)
-  </p>
-  <p>
-    Library Assistant & Access Services Coordinator roles, Columbia University Libraries (2021-2024)
-  </p>
+  <h2>Relevent Skills</h2>
+<ul>
+  <li>Technical & Documentation Writing: I have experience writing detailed LibGuides, clear & thorough documentation for _____________________.</li>
+  <li>XML</li>
+  <li>Python & R</li>
+  <li>Web Development</li>
+  <li>Metadata Management</li>
+</ul>
 </section>
 
 <section>
