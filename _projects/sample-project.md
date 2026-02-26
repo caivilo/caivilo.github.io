@@ -1,13 +1,19 @@
 ---
 layout: default
 title: Circulation Data Analysis
+creator: Olivia Coleman
+date: 2025-01-15
+keywords: [Python, SQL, Library Analytics]
+abstract: "Quantitative analysis of five years of academic circulation data."
 ---
 
 ## Abstract
-Analyzed 5 years of circulation data.
+{{ page.abstract }}
 
-## Tools
-Python, SQL, Pandas
+## Methods
+- Python (Pandas)
+- SQL
+- Data Cleaning
 
-## Outcome
-Identified trends in declining print usage.
+## Findings
+Print circulation declined 18% over five years.
