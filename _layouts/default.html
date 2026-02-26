@@ -10,11 +10,27 @@
 <script src="/assets/js/script.js"></script>
   
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-  </header>
+<header class="site-header">
+  <div class="nav-container">
+
+    <div class="site-title">
+      <a href="/">{{ site.title }}</a>
+      <p class="site-subtitle">{{ site.description }}</p>
+    </div>
+
+    <nav class="main-nav">
+      <a href="/about/">About</a>
+      <a href="/research/">Research</a>
+      <a href="/publications/">Publications</a>
+      <a href="/collection/">Collection</a>
+      <a href="/cv/">CV</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+  
 <script src="/assets/js/script.js"></script>
+  
   <main>
     {{ content }}
   </main>
