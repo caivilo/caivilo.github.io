@@ -7,12 +7,9 @@ permalink: /cv/
 <section>
   <h2>Libraries & Librarianship</h2>
   
-  <h3>Princeton University</h3>
+  <h3>Princeton University | Supervisor, Library Curriculum Support Services (05.05.2025 - Present) </h3>
   <p>
-    My work explores the ethical and structural dimensions of information access. 
-    Drawing on a background in mathematics and librarianship, I investigate how 
-    classification systems, circulation policies, and research infrastructures 
-    influence environmental law, prison reform, and institutional knowledge production.
+ As Supervisor, Library Curriculum Support Services at Princeton University, I’ll be leading a dedicated team supporting course reserves and video reserves for Firestone Library and collaborating with colleagues across branch locations. I’m responsible for overseeing key services that support Princeton’s academic curriculum—managing staff, refining workflows, ensuring compliance with copyright policies, and providing personalized support to faculty and students.I will help enhance access to teaching materials, strengthen cross-departmental collaboration, and continue to build inclusive, efficient, and innovative support services. I’m also eager to contribute to the library’s broader mission through participation in professional development, working groups, and service improvement initiatives.
         <ul>
       <li></li>
     </ul>
