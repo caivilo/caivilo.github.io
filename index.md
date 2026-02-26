@@ -65,10 +65,13 @@ title: Home
 
 <section>
   <h2>Education</h2>
-  <p>
-    M.S. Information Science, University at Albany (2024–2026)
+    <p>
+    M.S. Data Science & Analytics (concentration: Mathematics | Design and Digital Humanities), SUNY Polytechnic Institute (Sept. 2026 - May 2028)
   </p>
   <p>
-    B.A. Mathematics, Colorado College (2021)
+    M.S. Information Science (concentration: Library and Information science), University at Albany (Dec. 2024– May 2026)
+  </p>
+  <p>
+    B.A. Applied Mathematics, Colorado College (2016-2021)
   </p>
 </section>
