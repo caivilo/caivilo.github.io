@@ -6,11 +6,8 @@ permalink: /collection/
 
 <h2>Digital Research Collection</h2>
 
-<div id="tag-filters"></div>
-
 {% for project in site.projects %}
   <div class="archive-card">
-
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
 
     <div class="metadata">
@@ -25,6 +22,5 @@ permalink: /collection/
     </div>
 
     <p><strong>Abstract:</strong> {{ project.abstract }}</p>
-
   </div>
 {% endfor %}
