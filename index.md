@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -90,6 +89,16 @@ title: Home
       </ul>
     </div>
   </section>
+
+
+<h2>Collection</h2>
+
+{% for project in site.projects %}
+  <div class="archive-card">
+    <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  </div>
+{% endfor %}
+
 
   <section id="projects">
     <h2>Projects</h2>
