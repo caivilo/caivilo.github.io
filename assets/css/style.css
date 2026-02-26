@@ -17,6 +17,49 @@ body {
   line-height: 1.6;
 }
 
+
+.site-header {
+  border-bottom: 1px solid #ddd;
+  padding: 1.5rem 0;
+  background: #faf9f7;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #222;
+}
+
+.site-subtitle {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.main-nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.main-nav a:hover {
+  border-bottom: 1px solid #444;
+}
+
+
+
+
+
 header {
   text-align: center;
   padding: 2rem;
