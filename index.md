@@ -91,33 +91,30 @@ title: Home
   </section>
 
 
-<h2>Collection</h2>
+---
+layout: default
+title: Collection
+---
+
+<h2>Digital Research Collection</h2>
 
 {% for project in site.projects %}
   <div class="archive-card">
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+
+    <div class="metadata">
+      <p><strong>Creator:</strong> {{ project.creator }}</p>
+      <p><strong>Date:</strong> {{ project.date | date: "%B %Y" }}</p>
+      <p><strong>Keywords:</strong>
+        {% for tag in project.keywords %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </p>
+    </div>
+
+    <p><strong>Abstract:</strong> {{ project.abstract }}</p>
   </div>
 {% endfor %}
-
-
-  <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="filter-buttons">
-      <button onclick="filterProjects('all')">All</button>
-      <button onclick="filterProjects('library')">Library</button>
-      <button onclick="filterProjects('data')">Data</button>
-    </div>
-
-    <div class="project library">
-      <h3>Digital Archive Enhancement</h3>
-      <p>Redesigned metadata schema and improved discoverability.</p>
-    </div>
-
-    <div class="project data">
-      <h3>Library Circulation Data Analysis</h3>
-      <p>Analyzed 5 years of circulation data using Python and SQL.</p>
-    </div>
 
   </section>
 
