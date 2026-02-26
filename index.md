@@ -10,20 +10,12 @@ title: Home
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <h1>Olivia Coleman</h1>
-    <p>Information Professional | Librarian | Aspiring Data Scientist</p>
-    <div class="header-links">
+  <div class="header-links">
       <a href="mailto:molc216@gmail.com">Email</a>
       <a href="https://github.com/caivilo" target="_blank">GitHub</a>
       <a href="https://linkedin.com/in/caivilo" target="_blank">LinkedIn</a>
       <a href="assets/resume.pdf" target="_blank">Download PDF</a>
-    </div>
-    <button id="darkModeToggle">Toggle Dark Mode</button>
-  </header>
+</head>
 
   <section id="about">
     <h2>About</h2>
@@ -34,38 +26,23 @@ title: Home
     </p>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div>
-        <h3>Library & Information</h3>
-        <ul>
-          <li>Metadata (MARC, Dublin Core)</li>
-          <li>Cataloging & Classification</li>
-          <li>Reference & Research Support</li>
-          <li>Information Literacy Instruction</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Data Science</h3>
-        <ul>
-          <li>Python (Pandas, NumPy)</li>
-          <li>SQL</li>
-          <li>Data Visualization (Matplotlib, Tableau)</li>
-          <li>Machine Learning (scikit-learn)</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Technical</h3>
-        <ul>
-          <li>Git & GitHub</li>
-          <li>HTML/CSS/JavaScript</li>
-          <li>APIs & Data Cleaning</li>
-          <li>Digital Repositories</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+  <section class="hero">
+  <h2>Information Science • Data • Law</h2>
+  <p>
+    I research information infrastructures, metadata systems, and the ethical implications of access in academic and legal environments.
+  </p>
+</section>
+
+<section>
+  <h3>Research Interests</h3>
+  <ul>
+    <li>Information Ethics</li>
+    <li>Metadata & Knowledge Organization</li>
+    <li>Research Analytics & Data Visualization</li>
+    <li>Environmental Law & Information Access</li>
+    <li>Carceral Information Systems</li>
+  </ul>
+</section>
 
   <section id="experience">
     <h2>Experience</h2>
@@ -89,6 +66,31 @@ title: Home
       </ul>
     </div>
   </section>
+
+
+
+
+<section>
+  <h3>Selected Collection</h3>
+
+  {% assign sorted = site.projects | sort: "date" | reverse %}
+  {% for project in sorted limit:3 %}
+    <div class="archive-card">
+      <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
+      <p class="meta">
+        {{ project.creator }} • {{ project.date | date: "%Y" }}
+      </p>
+      <p>{{ project.abstract }}</p>
+    </div>
+  {% endfor %}
+
+  <p><a href="/collection/">View Full Collection →</a></p>
+</section>
+
+
+
+
+
 
 
 ---
