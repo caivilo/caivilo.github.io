@@ -123,12 +123,12 @@ title: Home
 
   <section id="education">
     <h2>Education</h2>
-    <p><strong>MLIS</strong> — University Name</p>
-    <p><strong>Certificate in Data Science</strong> — Institution</p>
+    <p><strong>MSLIS</strong> — University at Albany Dec '24- May '26</p>
+    <p><strong>MSDSA</strong> — SUNY Polytechnic Institute Sept '26 - May '28</p>
   </section>
 
   <footer>
-    <p>© 2026 Your Name</p>
+    <p>© 2026 Olivia Coleman</p>
   </footer>
 
   <script src="script.js"></script>
