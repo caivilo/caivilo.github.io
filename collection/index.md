@@ -6,6 +6,9 @@ permalink: /collection/
 
 <h2>Digital Research Collection</h2>
 
+<!-- Tag filter buttons will generate here -->
+<div id="tag-filters"></div>
+
 {% for project in site.projects %}
   <div class="archive-card">
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
