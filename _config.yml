@@ -2,3 +2,7 @@ title: Olivia Coleman
 description: Information Professional | Librarian | Aspiring Data Scientist
 theme: minima
 markdown: kramdown
+
+collections:
+  projects:
+    output: true
