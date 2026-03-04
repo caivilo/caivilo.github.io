@@ -6,6 +6,18 @@ permalink: /cv/
 
 <section>
   <h2>Libraries & Librarianship</h2>
+
+ <h3>Lewisboro Library | Weekend Reference Librarian (02.19.2026 - Present) </h3>
+  <p>
+As a Weekend Reference Librarian at the Lewisboro Library, I provide welcoming, technology-forward service in a public library committed to being the heart of its community. I support patrons through reference and reader’s advisory services, while also offering hands-on guidance with public computers, digital platforms, and online resources through individualized and small-group instruction.
+
+My role includes contributing to adult collection development and cataloging (Evergreen ILS), assisting with library programming, and helping expand access to digital content services. I work collaboratively with library staff while maintaining strong independent initiative, attention to detail, and a commitment to excellent customer service.
+        <ul>
+      <li></li>
+    </ul>
+  </p>
+
+
   
   <h3>Princeton University | Supervisor, Library Curriculum Support Services (05.05.2025 - Present) </h3>
   <p>
@@ -14,6 +26,14 @@ permalink: /cv/
       <li></li>
     </ul>
   </p>
+
+ <h3>Katonah Village Library | Weekend Circulation Clerk (03.07.2025 - Present) </h3>
+  <p>
+        <ul>
+      <li></li>
+    </ul>
+  </p>
+  
 
   <h3>Purchase College | Head of Circulation Services ( 06. 17. 24  - 04.29.25 )</h3>
   <p>
