@@ -68,3 +68,13 @@ My role includes contributing to adult collection development and cataloging (Ev
   </p>
   
 </section>
+
+
+
+<section>
+  <h2>Information Technology</h2>
+</section>
+
+<section>
+  <h2>Data Analysis</h2>
+</section>
