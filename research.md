@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research Statement
+permalink: /research/
 ---
 
 ## Research Statement
