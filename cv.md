@@ -73,6 +73,23 @@ My role includes contributing to adult collection development and cataloging (Ev
 
 <section>
   <h2>Information Technology</h2>
+ <h2>Information Technology</h2>
+  <h3>Yonkers Public Library |  Informaation Technology Assistant (  03.05.19 -  08. 30. 19)</h3>
+  <p>
+As an IT Assistant at all three branches of the Yonkers Public Library system, I helped keep all computer equipment running smoothly as well as ensured that all computer users were able to interact with this equipment successfully. I worked as a VR Technician and troubleshot any problems the 3 VRs experienced. Additionally, I taught frequent computer coding classes, using Python, JavaScript and HTML/CSS.
+    <ul>
+      <li></li>
+    </ul>
+  </p>
+
+  
+  <h3>Colorado College |  Informaation Technology Intern (  06.01.17 -  06. 30. 19)</h3>
+  <p>
+ I assisted in implementing new technology within the Colorado Springs Fine Arts Center and Tutt Library. I worked as a VR Technician, as well as assisted patrons with 3D modeling and printing.
+    <ul>
+      <li></li>
+    </ul>
+  </p>
 </section>
 
 <section>
