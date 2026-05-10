@@ -3,6 +3,23 @@ layout: default
 title: CV
 permalink: /cv/
 ---
+<section>
+  <h2>Education</h2>
+
+ <h3>University at Albany | Masters of Science, Information Science (Academic Librarianship concentration) (12.26.24 -05.15.2026)</h3>
+  <p>
+        <ul>
+      <li>Create libguides: https://libguides.library.albany.edu/c.php?g=1472388&p=10960797</li>
+      <li>Create exhibitions and work with Omeka: https://libguides.library.albany.edu/c.php?g=1472388&p=10960797</li>
+    </ul>
+  </p>
+
+</section>
+
+
+
+
+
 
 <section>
   <h2>Libraries & Librarianship</h2>
