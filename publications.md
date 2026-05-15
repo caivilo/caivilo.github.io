@@ -16,4 +16,8 @@ N/A
 - Coleman, O. (Forthcoming).
 - Coleman, O. (Forthcoming, 2026). "Communicating Digital Humanities Work in Academic Libraries:
 A Multi-Institution Rhetorical Analysis."
-- Coleman, O. (Forthcoming). 
+- Coleman, O. (Forthcoming).
+
+- ## Zines
+- "The Lesbian Taxonomy Project" (In Progress/Ongoing). Writer, Editor, and Illustrator. [Princeton, NJ & Harlem], NY: Self-published.
+-
