@@ -135,3 +135,35 @@ footer {
   padding: 1rem;
   font-size: 0.8rem;
 }
+
+```css
+.cv-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.cv-grid h2 {
+  margin-top: 0;
+}
+
+.cv-grid h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.cv-grid p {
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+}
