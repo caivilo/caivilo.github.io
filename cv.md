@@ -11,8 +11,18 @@ permalink: /cv/
         <ul>
       <li>Create libguides: https://libguides.library.albany.edu/c.php?g=1472388&p=10960797</li>
       <li>Create exhibitions and work with Omeka: https://libguides.library.albany.edu/c.php?g=1472388&p=10960797</li>
+      <li>Began research on a paper entitled ""; had it published in </li>
     </ul>
   </p>
+
+ <h3> State University of New York | Masters of Science, Data Science and Analytics () (09.01.26 -05.15.2028)</h3>
+  <p>In anticipation of becoming a more STEM focused academic librarian, I decided to pursue a degree in data science & analytics to combine my interests in digital humanities, mathematrtics, and together. 
+        <ul>
+      <li>Create libguides: https://libguides.library.albany.edu/c.php?g=1472388&p=10960797</li>
+      <li>Create exhibitions and work with Omeka: https://libguides.library.albany.edu/c.php?g=1472388&p=10960797</li>
+    </ul>
+  </p>
+
 
 </section>
 
