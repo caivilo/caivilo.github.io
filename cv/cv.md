@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CV
-permalink: /cv/
+permalink:
 ---
 <section>
   <h2>Education</h2>
